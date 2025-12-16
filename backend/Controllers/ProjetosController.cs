@@ -5,7 +5,8 @@ namespace backend.Controllers
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.EntityFrameworkCore;
     using System.Threading.Tasks;
-
+    using Microsoft.AspNetCore.Authentication;
+    
     [ApiController]
     [Route("api/[controller]")]
     public class ProjetosController : ControllerBase
